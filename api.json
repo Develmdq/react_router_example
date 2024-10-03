@@ -1,0 +1,6 @@
+[
+{"id": "1", "nombre": "Tv", "precio": 1800, "img": "public/tv.jpg"},
+{"id": "2", "nombre": "Móvil", "precio": 1200, "img": "public/movil.jpg"},
+{"id": "3", "nombre": "Monitor", "precio": 900, "img": "public/monitor.jpg"},
+{"id": "4", "nombre": "Radio", "precio": 800, "img": "public/radio.jpg"}
+]

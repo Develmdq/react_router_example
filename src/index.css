@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(95, 21, 21);
+  padding: 2rem;
+}
+
+.mainContainer {
+  flex: 1;
+  background: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerContainer {
+  background-color: rgb(95, 21, 21);
+  margin-top: auto;
+  color: #fff;
+  height: 10%;
+  padding: 2rem;
+}
+
+.active {
+  color: rgb(245, 206, 122);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  gap: 2rem;
+  color: #fff;
+  margin: 0 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.containerLinks {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.productoLi {
+  padding: 1rem !important;
+  font-size: 1rem;
+  color: rgb(0, 4, 255);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imgList {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.imgList:hover {
+  box-shadow: 0 0 2px 1px rgba(1, 72, 95, 0.5);
+  opacity: 0.5
+}
+
+.containerProduct{
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.imgDetails {
+  width: 15rem;
+  /* height: 6rem; */
+  object-fit: contain;
+  border-radius: 15px;
+  margin-right: 1rem;
+  transition: all 1s ease;
+  cursor: zoom-in;
+}
+.imgDetails:hover{
+
+  scale: 1.4;
+}
+
+
+.iconBtnDetails{
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+
+.containerServices{
+  display: flex;
+  flex-direction: column;
+}
+
+li > a{
+  color: rgb(131, 79, 1);
+}
