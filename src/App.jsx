@@ -1,4 +1,4 @@
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { Header, Footer } from "./components";
 import Main from "./routes/Main";
 import ProductProvider from "./context/ProductContext";
@@ -6,11 +6,11 @@ import ProductProvider from "./context/ProductContext";
 const App = () => {
   return (
     <ProductProvider>
-      <HashRouter>
+      <BrowserRouter>
         <Header />
         <Main />
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </ProductProvider>
   );
 };
