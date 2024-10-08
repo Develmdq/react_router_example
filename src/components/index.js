@@ -6,6 +6,7 @@ import Compra from './Compra'
 import Venta from './Venta'
 import Asesoramiento from './Asesoramiento'
 import ServicesList from './ServicesList'
+import Form from './Form'
 
 
 export {
@@ -17,4 +18,5 @@ export {
   Venta,
   Asesoramiento,
   ServicesList,
+  Form
 };

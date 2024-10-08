@@ -34,6 +34,53 @@
   padding: 2rem;
 }
 
+.containerLogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+form > input{
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.error-border {
+  border: 1px red solid;
+}
+
+form > select {
+ border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 85%;
+  color: rgb(104, 104, 104);
+}
+
+input[type="submit"] {
+  color: rgb(68, 22, 22);
+  background-color: rgb(141, 141, 19);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
 .active {
   color: rgb(245, 206, 122);
 }
@@ -73,10 +120,10 @@ a {
 }
 .imgList:hover {
   box-shadow: 0 0 2px 1px rgba(1, 72, 95, 0.5);
-  opacity: 0.5
+  opacity: 0.5;
 }
 
-.containerProduct{
+.containerProduct {
   display: flex;
   gap: 5rem;
   align-items: center;
@@ -91,23 +138,43 @@ a {
   transition: all 1s ease;
   cursor: zoom-in;
 }
-.imgDetails:hover{
-
+.imgDetails:hover {
   scale: 1.4;
 }
 
-
-.iconBtnDetails{
+.iconBtnDetails {
   font-size: 3rem;
   cursor: pointer;
 }
 
-
-.containerServices{
+.containerServices {
   display: flex;
   flex-direction: column;
 }
 
-li > a{
+li > a {
   color: rgb(131, 79, 1);
+}
+
+span {
+  color: red;
+}
+
+.containerPass {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.iconEye {
+  position: relative;
+  right: 20px;
+  color: rgb(109, 109, 109);
+}
+
+.containerPass > input {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-left: 20px;
 }

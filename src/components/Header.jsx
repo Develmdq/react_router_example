@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <div className="headerContainer">
-      <Link to={"/"}>
+      <Link to={"/home"}>
         <img src="../../public/react-router.svg" alt="logo" style={{width:'3rem'}} title="Ir al Home" />
       </Link>
       <NavLinks />
